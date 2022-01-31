@@ -1,3 +1,4 @@
+package notortalamasi;
 import java.util.Scanner;
 
 public class NotOrtalamasi {
