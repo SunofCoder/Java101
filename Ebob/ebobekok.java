@@ -30,8 +30,24 @@ public class ebobekok {
         }
 
         System.out.println((n1*n2)/ebob);
+        System.out.println("While dongusu kullanilarak");
 
+        while (x > 1){
+            if (n1 % x ==0 && n2 % x ==0){
+                ebob= x;
+                ekok= (n1 * n2) / ebob;
+                break;
+            }
+            x--;
 
+        }
+        System.out.println("Ebob : " +ebob);
+        System.out.println("Ekok : " +ekok);
     }
-    
+
+
 }
+
+
+
+
