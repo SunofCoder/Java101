@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MinMax {
+public class minmax {
     public static void main(String[] args) {
 
         int n, max = 0, min = 99999, number;
