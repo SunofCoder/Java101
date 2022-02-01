@@ -4,13 +4,14 @@ public class minmax {
     public static void main(String[] args) {
 
         int n, max = 0, min = 99999, number;
-        Scanner scanner = new Scanner(System.in);
+
+        Scanner sc = new Scanner(System.in);
         System.out.print("Kaç tane sayı girilecek :");
-        n = scanner.nextInt();
+        n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
             System.out.print(i + ". Sayıyı giriniz :");
-            number = scanner.nextInt();
+            number = sc.nextInt();
             if (number > max) {
                 max = number;
             }
