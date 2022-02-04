@@ -7,7 +7,6 @@ public class DesenMetot {
         System.out.print(n+" ");
 
         if(n<=0){
-            // Döngü olmadan tersten yazım zor!
             while (n2 > n){
                 n +=5;
                 System.out.print(n+" ");
